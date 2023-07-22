@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 .Card{
-    @apply w-48 h-64 shadow-md rounded-lg flex-none
+    @apply w-48 h-64 shadow-md rounded-lg flex-none  hover:-translate-y-2 hover:shadow-xl
 }
+
+.placeholder-letter-spacing {
+    letter-spacing: 2px; /* Puedes ajustar el valor según tus necesidades */
+  }
 
 @font-face {
     font-family: "Avenir Next LT Pro";

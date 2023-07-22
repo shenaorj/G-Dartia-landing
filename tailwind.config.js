@@ -29,11 +29,20 @@ module.exports = {
         'secondary': '#7C7B7B',
         'terciary': '#9C9B9B',
       },
+      ringColor:{
+        'primary': '#E74926',
+        'secondary': '#7C7B7B',
+        'terciary': '#9C9B9B',
+      },
       fontFamily: {
         Avernir: ['Avenir Next LT Pro', 'sans-serif'],
       },
     },
   },
+  variants: {
+    width: ["responsive", "hover", "focus"],
+  },
+
   plugins: [],
 };
 

@@ -570,8 +570,16 @@ video {
   height: 100vh;
 }
 
+.h-80 {
+  height: 20rem;
+}
+
 .w-36 {
   width: 9rem;
+}
+
+.w-48 {
+  width: 12rem;
 }
 
 .w-auto {
@@ -580,6 +588,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-80 {
+  width: 20rem;
 }
 
 .flex-col {
@@ -604,6 +616,10 @@ video {
 
 .overflow-x-auto {
   overflow-x: auto;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
 }
 
 .overscroll-x-contain {
@@ -643,6 +659,10 @@ video {
   background-image: url('../img/impresion 3d.jpg');
 }
 
+.bg-data {
+  background-image: url('../img/data.jpg');
+}
+
 .bg-dolor {
   background-image: url('../img/dolor.jpg');
 }
@@ -653,10 +673,6 @@ video {
 
 .bg-programacion {
   background-image: url('../img/programacion.jpg');
-}
-
-.bg-data {
-  background-image: url('../img/data.jpg');
 }
 
 .bg-space {
@@ -698,6 +714,10 @@ video {
   text-align: center;
 }
 
+.font-Avernir {
+  font-family: Avenir Next LT Pro, sans-serif;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -718,8 +738,21 @@ video {
   line-height: 1.75rem;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .font-semibold {
   font-weight: 600;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
 }
 
 .text-primary {
@@ -743,6 +776,24 @@ video {
   outline-offset: 2px;
 }
 
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.duration-500 {
+  transition-duration: 500ms;
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .Card {
   height: 16rem;
   width: 12rem;
@@ -753,10 +804,60 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.Card:hover {
+  --tw-translate-y: -0.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.placeholder-letter-spacing {
+  letter-spacing: 2px;
+  /* Puedes ajustar el valor según tus necesidades */
+}
+
 @font-face {
   font-family: "Avenir Next LT Pro";
 
   src: url("/public/fonts/AvenirNextLTPro-Regular.otf") format("truetype");
 
   /* Agrega otros formatos de fuente aquí si los tienes */
+}
+
+.focus-within\:shadow-sm:focus-within {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.hover\:scale-110:hover {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:bg-primary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 73 38 / var(--tw-bg-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.focus\:w-11\/12:focus {
+  width: 91.666667%;
+}
+
+.focus\:ring-2:focus {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.focus\:ring-primary:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(231 73 38 / var(--tw-ring-opacity));
 }
