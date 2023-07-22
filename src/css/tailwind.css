@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Card{
+    @apply w-48 h-64 shadow-md rounded-lg flex-none
+}
+
+@font-face {
+    font-family: "Avenir Next LT Pro";
+    src: url("/public/fonts/AvenirNextLTPro-Regular.otf") format("truetype");
+    /* Agrega otros formatos de fuente aquí si los tienes */
+  }
