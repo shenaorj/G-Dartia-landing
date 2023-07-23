@@ -15,6 +15,9 @@ module.exports = {
         '3d': "url('../img/impresion 3d.jpg')",
         'data': "url('../img/data.jpg')",
         'space': "url('../img/space.jpg')",
+        'imp3d': "url('../img/imp3d.jpg')",
+        'antenas': "url('../img/antenas.jpg')",
+        'space_program': "url('../img/space_prom.jpg')",
         
 
       },
