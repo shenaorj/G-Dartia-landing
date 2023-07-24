@@ -6,6 +6,13 @@
     @apply w-48 h-64 shadow-md rounded-lg flex-none  hover:-translate-y-2 hover:shadow-xl
 }
 
+.card:nth-child(odd) {
+  @apply bg-secondary text-white dark:bg-gray-700;
+}
+.card:nth-child(even) {
+  @apply bg-white text-tertiary dark:bg-gray-800 dark:text-gray-300;
+}
+
 .placeholder-letter-spacing {
     letter-spacing: 2px; /* Puedes ajustar el valor según tus necesidades */
   }
