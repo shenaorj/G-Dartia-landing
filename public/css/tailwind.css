@@ -550,6 +550,10 @@ video {
   left: 0px;
 }
 
+.ml-16 {
+  margin-left: 4rem;
+}
+
 .mr-24 {
   margin-right: 6rem;
 }
@@ -560,10 +564,6 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.ml-16 {
-  margin-left: 4rem;
 }
 
 .flex {
@@ -662,10 +662,10 @@ video {
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
-.space-y-80 > :not([hidden]) ~ :not([hidden]) {
+.space-y-96 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
-  margin-top: calc(20rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(20rem * var(--tw-space-y-reverse));
+  margin-top: calc(24rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(24rem * var(--tw-space-y-reverse));
 }
 
 .justify-self-stretch {
@@ -756,10 +756,6 @@ video {
 
 .bg-space {
   background-image: url('../img/space.jpg');
-}
-
-.bg-space_program {
-  background-image: url('../img/space_prom.jpg');
 }
 
 .bg-cover {
@@ -896,17 +892,12 @@ video {
   line-height: 1.75rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.font-bold {
+  font-weight: 700;
 }
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .tracking-widest {
@@ -1071,16 +1062,8 @@ video {
     height: 24rem;
   }
 
-  .lg\:h-auto {
-    height: auto;
-  }
-
-  .lg\:h-1\/3 {
-    height: 33.333333%;
-  }
-
-  .lg\:w-2\/5 {
-    width: 40%;
+  .lg\:h-full {
+    height: 100%;
   }
 
   .lg\:w-2\/3 {
@@ -1095,12 +1078,6 @@ video {
     justify-content: flex-start;
   }
 
-  .lg\:space-x-0 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(0px * var(--tw-space-x-reverse));
-    margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
-  }
-
   .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -1113,26 +1090,6 @@ video {
 
   .lg\:bg-center {
     background-position: center;
-  }
-
-  .lg\:pt-56 {
-    padding-top: 14rem;
-  }
-
-  .lg\:pt-48 {
-    padding-top: 12rem;
-  }
-
-  .lg\:pt-36 {
-    padding-top: 9rem;
-  }
-
-  .lg\:pt-32 {
-    padding-top: 8rem;
-  }
-
-  .lg\:pt-28 {
-    padding-top: 7rem;
   }
 
   .lg\:pt-24 {
