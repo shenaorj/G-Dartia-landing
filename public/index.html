@@ -17,18 +17,21 @@
     <section class="w-full h-auto">
         <div id="home">
             <div class="w-full h-3/4">
-                <div class="w-full h-full flex flex-col absolute space-y-80 py-4 items-center">
+                <div class="w-full h-full flex flex-col absolute space-y-80 py-4 items-center lg:space-y-0 lg:items-start lg:pt-24 lg:justify-start">
                     <input
-                        class="w-52 outline-none p-3 rounded-full shadow-sm transition-all duration-300 focus-within:shadow-sm focus:ring-2 focus:ring-primary focus:w-11/12 placeholder-letter-spacing"
+                        class="w-52 outline-none p-3 rounded-full shadow-sm transition-all duration-300 focus-within:shadow-sm focus:ring-2 focus:ring-primary focus:w-11/12 placeholder-letter-spacing lg:hidden"
                         placeholder="Proyectos G-Dartia" type="search" name="" id="">
+                        <div class="hidden h-auto lg:w-2/3 lg:flex pb-6">
+                            <p class="text-3xl ml-16 font-bold text-primary">Descubre nuestros proyectos</p>
+                        </div>
                     <button
-                        class="w-44 rounded-full text-xl text-primary shadow-sm font-semibold p-4 bg-white  transition-all duration-500 ease-in-out hover:bg-primary hover:text-white hover:-tramslate-y-1 hover:scale-110 tracking-widest">
+                        class="w-44 rounded-full text-xl text-primary shadow-sm font-semibold p-4 bg-white  transition-all duration-500 ease-in-out hover:bg-primary hover:text-white hover:-translate-y-1 hover:scale-110 tracking-widest lg:ml-16">
                         Explorar
                     </button>
                 </div>
 
-                <div class="w-full h-full">
-                    <img src="/public/img/robot.jpg" alt="">
+                <div class="w-full h-full lg:h-96 bg-robot_desktop lg:bg-cover lg:bg-center">
+                    <img class="lg:hidden" src="/public/img/robot.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -157,7 +160,7 @@
         <p class="text-sm text-terciary">SIINGMI, Inc.</p>
 
     </footer>
-    <div class="w-full h-auto bg-white fixed left-0 bottom-0 shadow-md flex space-x-8 items-center justify-center"
+    <div class="w-full h-auto bg-white fixed left-0 bottom-0 shadow-md flex space-x-8 items-center justify-center lg:hidden"
         id="tab_bar">
         <a href="#proyectos">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"

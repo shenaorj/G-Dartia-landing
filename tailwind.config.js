@@ -18,7 +18,7 @@ module.exports = {
         'imp3d': "url('../img/imp3d.jpg')",
         'antenas': "url('../img/antenas.jpg')",
         'space_program': "url('../img/space_prom.jpg')",
-        
+        'robot_desktop': "url('../img/robot_desktop.jpg')",
 
       },
       backgroundColor: theme => ({
