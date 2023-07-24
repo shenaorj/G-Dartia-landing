@@ -2,15 +2,24 @@
 <html lang="en" x-data="{dark:false}" x-bind:class="dark ? 'dark' : ''">
 
 <head>
+        <!-- Metaetiquetas -->
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilos -->
+
     <link rel="stylesheet" href="../public/css/tailwind.css">
+
+    <!-- Título de la página -->
+
     <title>G-Datia</title>
 </head>
 
 <body class="font-Avernir tracking-widest dark:bg-gray-900">
 
+    <!-- Sección logos -->
 
     <nav class="w-full h-14 hidden bg-white lg:flex p-4 justify-between fixed z-10 dark:bg-gray-800">
         <div class="hidden lg:flex">
@@ -57,31 +66,46 @@
         </div>
     </nav>
 
+    <!-- Sección principal -->
+
+
     <section class="w-full h-screen">
         <div class="w-full h-full" id="home">
             <div class="w-full h-3/4">
+                 <!-- Contenedor de elementos centrados en pantallas grandes y alineados en la parte superior en pantallas pequeñas -->
+
                 <div
                     class="w-full  flex flex-col absolute space-y-96 py-4 items-center lg:space-y-0 lg:items-start lg:pt-60 lg:justify-start">
+                    
+                    <!-- Barra de búsqueda -->
+
                     <input
                         class="w-52 outline-none p-3 rounded-full shadow-sm transition-all duration-300 focus-within:shadow-sm focus:ring-2 focus:ring-primary focus:w-11/12 placeholder-letter-spacing lg:hidden"
                         placeholder="Proyectos G-Dartia" type="search" name="" id="">
+                    <!-- Título de proyectos oculto en pantallas grandes -->
                     <div class="hidden h-auto lg:w-2/3 lg:flex pb-6">
                         <p class="text-2xl ml-16 font-semibold text-primary dark:text-white">Descubre nuestros proyectos</p>
                     </div>
+                    <!-- Botón para explorar proyectos -->
                     <button 
                         class="w-44 rounded-full text-xl text-primary shadow-sm font-semibold p-4 bg-white dark:bg-gray-900 dark:text-white transition-all duration-500 ease-in-out hover:bg-primary hover:text-white hover:-translate-y-1 hover:scale-110 tracking-widest lg:ml-16">
                         Explorar
                     </button>
                 </div>
 
+                <!-- Imagen de fondo para pantallas grandes -->
                 <div class="w-full h-full lg:h-full lg:bg-robot_desktop lg:bg-cover lg:bg-center">
                     <img class="lg:hidden" src="/public/img/robot.jpg" alt="">
                 </div>
             </div>
         </div>
+        <!-- Sección de proyectos -->
         <div class="w-full h-auto p-6" id="proyectos">
+            <!-- Título de proyectos en curso -->
             <p class="text-3xl font-semibold text-primary dark:text-white">Proyectos en curso</p>
+            <!-- Contenedor de tarjetas de proyectos -->
             <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-6 overflow-y-hidden">
+                <!-- Tarjeta de proyecto 1 -->
                 <div class="Card">
                     <div class="w-full h-3/5 bg-imu2 bg-cover rounded-t-lg"></div>
                     <div class="w-full h-2/5 rounded-b-lg bg-primary dark:bg-gray-700">
@@ -92,6 +116,7 @@
                 </div>
 
 
+                <!-- Tarjeta de proyecto 2 -->
                 <div class="Card">
                     <div class="w-full h-3/5 bg-3d bg-cover rounded-t-lg"></div>
                     <div class="w-full h-2/5 rounded-b-lg bg-white dark:bg-secondary">
@@ -100,6 +125,7 @@
                     </div>
                 </div>
 
+                <!-- Tarjeta de proyecto 3 -->
                 <div class="Card">
                     <div class="w-full h-3/5 bg-programacion bg-cover rounded-t-lg"></div>
                     <div class="w-full h-2/5 rounded-b-lg  bg-primary  dark:bg-gray-700">
@@ -108,6 +134,7 @@
                     </div>
                 </div>
 
+                <!-- Tarjeta de proyecto 4 -->
                 <div class="Card">
                     <div class="w-full h-3/5 bg-dolor bg-cover rounded-t-lg"></div>
                     <div class="w-full h-2/5 rounded-b-lg bg-white dark:bg-secondary">
@@ -116,6 +143,7 @@
                     </div>
                 </div>
 
+                 <!-- Tarjeta de proyecto 5 -->
                 <div class="Card">
                     <div class="w-full h-3/5 bg-data bg-cover rounded-t-lg"></div>
                     <div class="w-full h-2/5 rounded-b-lg bg-primary  dark:bg-gray-700">
@@ -125,6 +153,7 @@
                     </div>
                 </div>
 
+                <!-- Tarjeta de proyecto 6 -->
                 <div class="Card">
                     <div class="w-full h-3/5 bg-space bg-cover rounded-t-lg"></div>
                     <div class="w-full h-2/5 rounded-b-lg bg-white dark:bg-secondary">
@@ -134,20 +163,24 @@
                 </div>
             </div>
         </div>
+        <!-- Sección de noticias destacadas -->
         <div class="px-6 h-auto w-full" id="Noticias">
             <p class="text-3xl text-primary font-semibold pb-6 mt-4 dark:text-white">Noticias Destacadas</p>
             <div class="w-full h-auto flex flex-col space-y-6 items-center justify-center">
+                <!-- Noticia 1 -->
                 <div class="bg-fixed bg-center h-screen w-full  bg-imp3d bg-cover rounded-xl">
                     <p class="CardTitle">Modelado y Protitipado en 3D
                     </p>
                     <p class=" text-sm pl-8 mr-24 text-white justify-self-stretch">Estudio de materiales y modelos
                         eficientes para el desarollo de piezas en 3d de alta precisión.</p>
                 </div>
+                <!-- Noticia 2 -->
                 <div class="bg-fixed bg-center h-screen w-full bg-space bg-cover rounded-xl">
                     <p class="CardTitle">Platzi Space Program</p>
                     <p class="text-sm pl-8 mr-24 text-white justify-self-stretch">Comunicación con el primer satélite de
                         Plazti en el espacio, G-Dartia somos parte del programa Space Program.</p>
                 </div>
+                <!-- Noticia 3 -->
                 <div class=" bg-fixed bg-center h-screen w-full bg-imu1 bg-cover rounded-xl">
                     <p class="CardTitle">Análisis Biomecánico con IMUs
                     </p>
@@ -156,9 +189,11 @@
                 </div>
             </div>
         </div>
+        <!-- Sección de objetivos de G-Dartia -->
         <div class="w-full h-auto py-10 px-5" id="objetivos">
             <div class="w-full h-auto px-2 flex flex-col">
                 <p class="text-xl text-primary font-semibold dark:font-bold py-2 dark:text-white">Objetivos de G-Dartia</p>
+                <!-- Objetivo 1 -->
                 <div>
                     <p class="text-secondary font-semibold py-2 dark:text-white">Objetivo 1: Análisis y Mejora de Movimiento Biomecánico
                         Inercial</p>
@@ -170,6 +205,7 @@
                         ergonomía, con el propósito de desarrollar técnicas y estrategias que mejoren el rendimiento,
                         prevengan lesiones y optimicen la calidad de vida.</p>
                 </div>
+                <!-- Objetivo 2 -->
                 <div>
                     <p class="text-secondary font-semibold py-2 dark:text-white">Objetivo 2: Desarrollo de Software para Análisis y
                         Visualización de Datos</p>
@@ -181,6 +217,7 @@
                         desarrollado puede ser una herramienta valiosa para investigadores, profesionales de la salud y
                         empresas.</p>
                 </div>
+                <!-- Objetivo 3 -->
                 <div>
                     <p class="text-secondary font-semibold py-2 dark:text-white">Objetivo 3: Modelado y Prototipado en 3D para Diseño de
                         Dispositivos Biomédicos</p>
@@ -191,14 +228,18 @@
                 </div>
             </div>
         </div>
+        <!-- Pie de página -->
         <div class="w-full h-auto grid grid-cols-2 " id="Nosotros">
             <footer class=" bg-gray-50 p-6 space-y-2 dark:bg-gray-900">
+                <!-- Acerca de -->
                 <p class="text-lg text-secondary dark:text-white">Acerca De</p>
+                <!-- Enlaces -->
                 <p class="text-sm text-terciary dark:text-white">Investigadores</p>
                 <p class="text-sm text-terciary dark:text-white">Términos y condiciones</p>
                 <p class="text-sm text-terciary dark:text-white">Contactanos</p>
                 <p class="text-sm text-terciary dark:text-white">SIINGMI, Inc.</p>
             </footer>
+            <!-- Logo de G-Dartia -->
             <div class="hidden lg:flex">
                 <?xml version="1.0" encoding="UTF-8"?>
                 <svg width="400" height="100" id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg"
@@ -302,8 +343,12 @@
             </div>
         </div>
     </section>
+
+    <!-- Barra de navegación para dispositivos móviles -->
+
     <div class="w-full h-auto bg-white fixed left-0 bottom-0 shadow-md flex space-x-8 items-center justify-center lg:hidden dark:bg-gray-700"
         id="tab_bar">
+        <!-- Enlace a la sección de proyectos -->
         <a href="#proyectos">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                 class="w-10 h-10 text-primary dark:text-white">
@@ -312,6 +357,7 @@
                     clip-rule="evenodd" />
             </svg>
         </a>
+        <!-- Enlace al inicio de la página -->
         <a href="#home">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
             class="w-10 h-10 text-primary dark:text-white">
@@ -321,6 +367,7 @@
             </svg>
 
         </a>
+        <!-- Enlace a la sección de noticias -->
         <a href="#Noticias" class="text-primary dark:text-white">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
                 <path fill-rule="evenodd" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z" />
