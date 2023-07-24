@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 364.97 77.03">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e84926;
+      }
+
+      .cls-2 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: AvenirNext-Regular, 'Avenir Next';
+      }
+
+      .cls-4, .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        font-family: AvenirNext-DemiBold, 'Avenir Next';
+        font-weight: 300;
+      }
+
+      .cls-10 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-6 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-11, .cls-12 {
+        fill: #929292;
+      }
+
+      .cls-13 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-12 {
+        font-size: 9.74px;
+      }
+
+      .cls-14 {
+        letter-spacing: -.03em;
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="11.34"/>
+      <feFlood flood-color="#6a6a69" flood-opacity=".5"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <polyline class="cls-11" points="28.22 77.03 67.07 0 38.76 0 0 76.85"/>
+    <polyline class="cls-1" points="75.58 76.99 95.68 37 58.41 37 38.3 77.01"/>
+    <g class="cls-10">
+      <text class="cls-12" transform="translate(104.27 43.66) scale(1.06 1)"><tspan class="cls-3"><tspan class="cls-13" x="0" y="0">C</tspan><tspan x="6.91" y="0">elular</tspan><tspan class="cls-14" x="31.76" y="0">.</tspan><tspan class="cls-4" x="34" y="0" xml:space="preserve"> 313 425 53 38 / 310 254 14 04 / 320 833 28 84</tspan></tspan><tspan class="cls-3" x="0" y="11.69">Calle</tspan><tspan class="cls-2" x="22.7" y="11.69">.</tspan><tspan class="cls-3" x="24.95" y="11.69" xml:space="preserve"> 31 Nº 29 - 50 </tspan><tspan class="cls-7" x="87.54" y="11.69">Y</tspan><tspan class="cls-9" x="92.7" y="11.69" xml:space="preserve">opal -  </tspan><tspan class="cls-6" x="123.21" y="11.69">C</tspan><tspan class="cls-9" x="129.82" y="11.69">asana</tspan><tspan class="cls-8" x="155.89" y="11.69">r</tspan><tspan class="cls-5" x="159.26" y="11.69">e</tspan></text>
+    </g>
+  </g>
+</svg>
