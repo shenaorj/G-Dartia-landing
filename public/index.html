@@ -18,11 +18,11 @@
     <title>G-Datia</title>
 </head>
 
-<body class="font-Avernir tracking-widest dark:bg-gray-900">
+<body class="font-Avernir tracking-normal dark:bg-gray-900">
 
     <!-- Sección logos -->
 
-    <nav class="w-full h-14 hidden bg-white lg:flex p-4 justify-between fixed z-10 dark:bg-gray-800">
+    <nav class="hidden bg-white lg:h-auto lg:w-full lg:flex p-4 justify-between fixed z-10 dark:bg-gray-800">
         <div class="hidden lg:flex">
             <?xml version="1.0" encoding="UTF-8"?>
             <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65.6 37.96">
@@ -44,16 +44,16 @@
         <div class="flex space-x-8 ">
             <!-- Enlace a la sección Inicio -->
             <a class="font-bold text-lg text-primary dark:text-white" href="#home">Inicio</a>
-        
+
             <!-- Enlace a la sección Proyectos -->
             <a class="font-bold text-lg text-primary dark:text-white" href="#proyectos">Proyectos</a>
-        
+
             <!-- Enlace a la sección Noticias -->
             <a class="font-bold text-lg text-primary dark:text-white" href="#Noticias">Noticias</a>
-        
+
             <!-- Enlace a la sección Objetivos -->
             <a class="font-bold text-lg text-primary dark:text-white" href="#objetivos">Objetivos</a>
-        
+
             <!-- Enlace a la sección Sobre Nosotros -->
             <a class="font-bold text-lg text-primary dark:text-white" href="#Nosotros">Sobre Nosotros</a>
         </div>
@@ -65,7 +65,7 @@
                     d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
                     clip-rule="evenodd" />
             </svg>
-        
+
             <!-- Botón de cambio de modo oscuro -->
             <button x-on:click="dark=!dark">
                 <!-- Icono de luna -->
@@ -83,7 +83,7 @@
 
 
     <section class="w-full h-screen">
-        <div class="w-full h-auto" id="home">
+        <div class="w-full h-auto lg:w-full lg:h-auto" id="home">
             <div class="w-full h-3/4">
                 <!-- Contenedor de elementos centrados en pantallas grandes y alineados en la parte superior en pantallas pequeñas -->
 
@@ -108,7 +108,8 @@
                 </div>
 
                 <!-- Imagen de fondo para pantallas grandes -->
-                <div class="w-full h-auto lg:h-full lg:bg-robot_desktop lg:bg-cover lg:bg-center">
+                <div class="lg:w-full lg:h-full lg:bg-cover lg:bg-center">
+                    <img  class="hidden lg:flex lg:w-full lg:h-auto" src="/public/img/robot_desktop.jpg" alt="">
                     <img class="lg:hidden" src="/public/img/robot.jpg" alt="">
                 </div>
             </div>
@@ -210,7 +211,8 @@
                     </p>
                     <!-- Descripción de la noticia -->
                     <p class="text-sm pl-8 mr-24 text-white justify-self-stretch">
-                        Comunicación con el primer satélite de Plazti en el espacio, G-Dartia somos parte del programa Space Program.
+                        Comunicación con el primer satélite de Plazti en el espacio, G-Dartia somos parte del programa
+                        Space Program.
                     </p>
                 </div>
                 <!-- Noticia 3 -->
@@ -232,7 +234,8 @@
         <div class="bg-white">
             <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
                 <h2 class="text-3xl font-semibold tracking-tight text-primary py-10">Ultimos Videos en YouTube</h2>
-                <div  class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-3 lg:grid-cols-4 xl:gap-x-8" id="content">
+                <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-3 lg:grid-cols-4 xl:gap-x-8"
+                    id="content">
                     <!-- content -->
                 </div>
             </div>
@@ -307,12 +310,13 @@
                 </p>
             </footer>
             <!-- Logo de G-Dartia -->
-            <div class="hidden lg:flex">
+            <div class="hidden lg:flex bg-gray-50 lg:justify-center">
                 <svg width="400" height="100" id="Capa_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 364.97 77.03">
                     <g id="Capa_1-2">
                         <polyline fill="#929292" points="28.22 77.03 67.07 0 38.76 0 0 76.85" />
                         <polyline fill="#e84926" points="75.58 76.99 95.68 37 58.41 37 38.3 77.01" />
-                        <text font-family="Avenir Next LT Pro, sans-serif" fill="#929292" font-size="9.74px" transform="translate(104.27 43.66) scale(1.06 1)">
+                        <text font-family="Avenir Next LT Pro, sans-serif" fill="#929292" font-size="9.74px"
+                            transform="translate(104.27 43.66) scale(1.06 1)">
                             <tspan x="0" y="0">Celular. 313 425 53 38 / 310 254 14 04</tspan>
                             <tspan x="0" y="11.69">Calle. 22 Nº 22 - 13 Yopal - Casanare - Colombia</tspan>
                         </text>
