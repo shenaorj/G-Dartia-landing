@@ -23,7 +23,7 @@ module.exports = {
         'programacion': "url('../img/programacion.jpg')",
         'dolor': "url('../img/dolor.jpg')",
         'protesis': "url('../img/protesis.jpg')",
-        '3d': "url('../img/impresion 3d.jpg')",
+        '3d': "url('../img/impresion-3d.jpg')",
         'data': "url('../img/data.jpg')",
         'space': "url('../img/space.jpg')",
         'imp3d': "url('../img/imp3d.jpg')",
