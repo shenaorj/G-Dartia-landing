@@ -5,6 +5,16 @@ module.exports = {
   content: ["./public/index.html", "./src/**/*.{html,js}"],
   theme: {
     extend: {
+      letterSpacing: {
+        tightest: '-.075em',
+        tighter: '-.05em',
+        tight: '-.025em',
+        normal: '0.109em',
+        wide: '.025em',
+        wider: '.05em',
+        widest: '.1em',
+        widest: '.25em',
+      },
       backgroundImage: {
         'robot': "url('../img/robot.jpg')",
         'imu1': "url('../img/imu1.jpg')",
@@ -39,7 +49,7 @@ module.exports = {
         'terciary': '#9C9B9B',
       },
       fontFamily: {
-        Avernir: ['Avenir Next LT Pro', 'sans-serif'],
+        Avernir: ['Avenir Next Light'],
       },
     },
   },
