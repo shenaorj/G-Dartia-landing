@@ -804,35 +804,35 @@ video {
 }
 
 .bg-3d {
-  background-image: url('../img/impresion 3d.jpg');
+  background-image: url('../img/impresion 3d.webp');
 }
 
 .bg-data {
-  background-image: url('../img/data.jpg');
+  background-image: url('../img/data.webp');
 }
 
 .bg-dolor {
-  background-image: url('../img/dolor.jpg');
+  background-image: url('../img/dolor.webp');
 }
 
 .bg-imp3d {
-  background-image: url('../img/imp3d.jpg');
+  background-image: url('../img/imp3d.webp');
 }
 
 .bg-imu1 {
-  background-image: url('../img/imu1.jpg');
+  background-image: url('../img/imu1.webp');
 }
 
 .bg-imu2 {
-  background-image: url('../img/imu2.jpg');
+  background-image: url('../img/imu2.webp');
 }
 
 .bg-programacion {
-  background-image: url('../img/programacion.jpg');
+  background-image: url('../img/programacion.webp');
 }
 
 .bg-space {
-  background-image: url('../img/space.jpg');
+  background-image: url('../img/space.webp');
 }
 
 .bg-cover {
@@ -1246,7 +1246,7 @@ video {
   }
 
   .lg\:bg-robot_desktop {
-    background-image: url('../img/robot_desktop.jpg');
+    background-image: url('../img/robot_desktop.webp');
   }
 
   .lg\:bg-cover {
