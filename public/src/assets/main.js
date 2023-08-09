@@ -1,3 +1,5 @@
+const { info } = require("autoprefixer");
+
 const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UCfza0jbMW1O_-a0Z86WA_UA&part=snippet%2Cid&order=date&maxResults=8';
 const content = null || document.getElementById('content');
 
@@ -42,3 +44,18 @@ async function fetchData(urlApi) {
         console.log(error);
     }
 })();
+
+/*
+
+document.getElementById('div1').addEventListener('click', flipCard);
+document.getElementById('info1').addEventListener('click', flipCard);
+
+
+function flipCard() {
+  const div1 = document.getElementById('div1');
+  const info1 = document.getElementById('info1');
+
+  div1.classList.toggle("rotate-y-180");
+  info1.classList.toggle("block");
+
+} */

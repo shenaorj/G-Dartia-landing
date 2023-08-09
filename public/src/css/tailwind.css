@@ -28,6 +28,6 @@
 }
 @font-face {
     font-family: "Avenir Next Light";
-    src: url("/fonts/AvenirNextCyr-Light.ttf") format("truetype");
+    src: url("/public/fonts/AvenirNextCyr-Light.ttf") format("truetype");
     /* Agrega otros formatos de fuente aquí si los tienes */
   }
