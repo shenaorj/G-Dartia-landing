@@ -75,6 +75,9 @@ module.exports = {
         '.rotate-y-180': {
           transform: 'rotateY(180deg)',
         },
+        '.text-size-adjust': {
+          'text-size-adjust': '100%',
+        },
       };
 
       addUtilities(newUtilities, ['responsive', 'hover']);

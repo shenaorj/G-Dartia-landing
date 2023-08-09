@@ -1,4 +1,4 @@
-const { info } = require("autoprefixer");
+
 
 const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UCfza0jbMW1O_-a0Z86WA_UA&part=snippet%2Cid&order=date&maxResults=8';
 const content = null || document.getElementById('content');
