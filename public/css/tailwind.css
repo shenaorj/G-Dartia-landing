@@ -285,11 +285,6 @@
   border-style: solid;
 }
 
-.border-black{
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
 .bg-gray-100{
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -1362,8 +1357,22 @@ html {
     padding-right: 2rem;
   }
 
+  .lg\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .lg\:py-0{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .lg\:pt-96{
     padding-top: 24rem;
+  }
+
+  .lg\:align-baseline{
+    vertical-align: baseline;
   }
 
   .lg\:text-2xl{
