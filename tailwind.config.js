@@ -29,6 +29,10 @@ module.exports = {
         'antenas': "url('../img/antenas.jpg')",
         'space_program': "url('../img/space_prom.jpg')",
         'robot_desktop': "url('../img/robot_desktop.jpg')",
+        'jonathan': "url('../img/jonathan-vasquez.jpg')",
+        'julian': "url('../img/julian-marquez-cubides.jpg')",
+        'julian E': "url('../img/eduardo-marquez.jpg')",
+        'santiago': "url('../img/santiago-hv.jpg')",
 
       },
       backgroundColor: theme => ({
@@ -56,7 +60,29 @@ module.exports = {
     width: ["responsive", "hover", "focus"],
   },
 
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        '.backface-visible': {
+          'backface-visibility': 'visible',
+        },
+        '.backface-hidden': {
+          'backface-visibility': 'hidden',
+        },
+        '.transform-style-preserve-3d': {
+          'transform-style': 'preserve-3d',
+        },
+        '.rotate-y-180': {
+          transform: 'rotateY(180deg)',
+        },
+        '.text-size-adjust': {
+          'text-size-adjust': '100%',
+        },
+      };
+
+      addUtilities(newUtilities, ['responsive', 'hover']);
+    },
+  ],
 };
 
 

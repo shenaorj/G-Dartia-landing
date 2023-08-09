@@ -31,3 +31,11 @@
     src: url("/public/fonts/AvenirNextCyr-Light.ttf") format("truetype");
     /* Agrega otros formatos de fuente aquí si los tienes */
   }
+
+  @import 'tailwindcss/base';
+/* Otras importaciones de Tailwind */
+
+/* Anula el ajuste de tamaño de texto predeterminado */
+html {
+  -webkit-text-size-adjust: initial; /* Cambia esto según tus necesidades */
+}
