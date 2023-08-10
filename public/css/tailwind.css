@@ -306,39 +306,39 @@
 }
 
 .bg-3d{
-  background-image: url('../img/impresion-3d.jpg');
+  background-image: url('../img/impresion-3d.webp');
 }
 
 .bg-data{
-  background-image: url('../img/data.jpg');
+  background-image: url('../img/data.webp');
 }
 
 .bg-dolor{
-  background-image: url('../img/dolor.jpg');
+  background-image: url('../img/dolor.webp');
 }
 
 .bg-imp3d{
-  background-image: url('../img/imp3d.jpg');
+  background-image: url('../img/imp3d.webp');
 }
 
 .bg-imu1{
-  background-image: url('../img/imu1.jpg');
+  background-image: url('../img/imu1.webp');
 }
 
 .bg-imu2{
-  background-image: url('../img/imu2.jpg');
+  background-image: url('../img/imu2.webp');
 }
 
 .bg-programacion{
-  background-image: url('../img/programacion.jpg');
+  background-image: url('../img/programacion.webp');
 }
 
 .bg-space{
-  background-image: url('../img/space.jpg');
+  background-image: url('../img/space.webp');
 }
 
 .bg-space_program{
-  background-image: url('../img/space_prom.jpg');
+  background-image: url('../img/space_prom.webp');
 }
 
 .bg-cover{
@@ -1357,22 +1357,8 @@ html {
     padding-right: 2rem;
   }
 
-  .lg\:px-0{
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .lg\:py-0{
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
   .lg\:pt-96{
     padding-top: 24rem;
-  }
-
-  .lg\:align-baseline{
-    vertical-align: baseline;
   }
 
   .lg\:text-2xl{
